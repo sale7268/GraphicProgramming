@@ -1,0 +1,19 @@
+#version 330 core
+
+
+out vec4 FragColor;
+uniform float blackness;
+in vec2 Texcoords;
+uniform sampler2D tex;
+
+
+void main() {
+
+	//vec3 color = texture(tex,Texcoords).xyz;
+	//float average = (0.21*color.x + 0.72*color.y + 0.07*color.z);
+	//FragColor = vec4(vec3(average),1.0);
+	//FragColor = vec4(-texture(tex,Texcoords).xyz + vec3(1.0),1.0);
+	FragColor = vec4(texture(tex, vec2(Texcoords.x, Texcoords.y + sin(Texcoords.x * 3.14))).xyz, 1.0);
+	FragColor = vec4(texture(tex, vec2(Texcoords.x + 0.005*cos(Texcoords.y * 100.0), Texcoords.y + 0.005*sin(Texcoords.x * 100.0))).xyz, 1.0) * blackness;
+	//FragColor = texture(tex, Texcoords) * blackness;
+}

@@ -1,0 +1,13 @@
+﻿  firstThing.cpp
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(253,1): warning C4267: '=': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(345,26): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(345,20): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(773,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(883,44): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(884,29): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(885,28): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(889,44): warning C4244: 'initializing': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(890,29): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(891,28): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\hazzy\source\repos\firstThing\firstThing\firstThing.cpp(904,55): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  firstThing.vcxproj -> C:\Users\hazzy\source\repos\firstThing\x64\Debug\firstThing.exe

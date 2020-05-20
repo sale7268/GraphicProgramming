@@ -1,0 +1,11 @@
+*Name: Hamza Saleem
+*Project_3
+
+*/ 
+* Completed tasks:
+	* All primary tasks
+	* Extra credit change color when moved from left to right or right to left
+	* Secondary task of moving object with mouse.
+*/
+
+If object is too close to the screen change "camerapos" variable on the top.
